@@ -1,7 +1,6 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "installCommand": "pnpm install"
+  "buildCommand": "cd shadcn-ui && pnpm install && pnpm run build",
+  "outputDirectory": "shadcn-ui/dist",
+  "framework": "vite"
 }
